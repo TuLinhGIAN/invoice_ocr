@@ -88,9 +88,9 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ## Usage
 
 ### Upload Invoice
-1. Go to the Streamlit interface
+1. Go to the FastAPI swagger
 2. Select "Upload Invoice" page
-3. Upload an invoice image (JPG, PNG, TIFF, BMP)
+3. Upload an sample invoice image attached in folder sample
 4. Click "Process Invoice"
 5. View extracted information
 
