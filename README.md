@@ -82,8 +82,9 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 - `POST /invoice/extract` - Upload and process invoice image
 
 ### Invoice Search
-- `GET /invoice/summary` - Get specific invoice by ID
-- `GET /invoice/image` - Export invoices to Excel
+- `GET /invoice` - Get specific invoice by ID
+- `GET /invoice/summary` - Get summary by range of time
+- `GET /invoice/image` - Visualize input image by image ID
 
 ## Usage
 

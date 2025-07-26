@@ -26,7 +26,7 @@ app = FastAPI(
     * Hiển thị thống kê tổng giá trị theo ngày
     
     ### 🛠️ Technical Features
-    * Tesseract OCR với Vietnamese language pack
+    * Marker OCR với Vietnamese language pack
     * Key-value extraction patterns
     * RESTful API với FastAPI
     * Swagger UI documentation
