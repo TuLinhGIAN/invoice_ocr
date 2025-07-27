@@ -1,8 +1,8 @@
 # Vietnamese Invoice OCR System
 
 A complete system for Vietnamese invoice OCR processing with FastAPI backend.
-This project is for educational purpose only.
-
+This project is a part of ending the foundation software engineering for data science and is for educational purpose only.
+Demo of Application is in the link: https://drive.google.com/file/d/1wkrmwoWA7wY-C5KXJQ40kbrkg1i1LzkO/view?usp=sharing
 ## Features
 
 - **OCR Processing**: Extract text from Vietnamese invoices using Marker OCR
@@ -36,8 +36,7 @@ docker-compose up --build
 ```
 
 3. **Access the applications:**
-   - API: http://localhost:8000
-   - API Documentation: http://localhost:8000/docs
+   - Fast API Swagger GUI: http://localhost:8000/docs
 
 ## Manual Setup
 
@@ -89,6 +88,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ## Usage
 
 ### Start application using Docker build
+Note: docker build may take long time, please be patient until this process completes.
 
 ### Go to Fast API swagger GUI using: http://localhost:8000/docs
 
