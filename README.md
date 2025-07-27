@@ -8,8 +8,8 @@ This project is for educational purpose only.
 - **OCR Processing**: Extract text from Vietnamese invoices using Marker OCR
 - **Key-Value Extraction**: Automatically extract invoice code, payment date, items, and total amount
 - **Database Storage**: Store processed invoices in PostgreSQL
-- **Search Functionality**: Search invoices by date range
-- **Excel Export**: Export search results to Excel files
+- **Search Function**: Search invoices by date range
+- **Input Generation**: Generate invoice image as ouput
 - **Docker Support**: Complete containerization with Docker Compose
 
 ## Project Structure
@@ -88,12 +88,15 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 ## Usage
 
+### Start application using Docker build
+
+### Go to Fast API swagger GUI using: http://localhost:8000/docs
+
 ### Upload Invoice
-1. Go to the FastAPI swagger
-2. Select "Upload Invoice" page
-3. Upload an sample invoice image attached in folder sample
-4. Click "Process Invoice"
-5. View extracted information
+1. Select "Upload Invoice" page
+2. Upload an sample invoice image attached in folder sample
+3. Click "Process Invoice"
+4. View extracted information
 
 ### Search Invoices
 1. Select "Search Invoices" page
